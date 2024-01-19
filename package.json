@@ -1,7 +1,7 @@
 {
-	"name": "net-ipc",
-	"version": "2.1.0",
-	"description": "Simple message based IPC client/server providing bi-directional communication over sockets and TCP. Supports one-way messages, promise-based request-response, survey, broadcast and zlib-stream compression",
+	"name": "@peertube/net-ipc",
+	"version": "2.2.0",
+	"description": "PeerTube fork of net-ipc",
 	"main": "index.js",
 	"typings": "index.d.ts",
 	"engines": {
@@ -11,25 +11,10 @@
 		"test": "node ./test/test.js"
 	},
 	"repository": {
-		"url": "https://github.com/timotejroiko/net-ipc.git"
+		"url": "https://github.com/chocobozzz/net-ipc.git"
 	},
-	"keywords": [
-		"ipc",
-		"net",
-		"tcp",
-		"socket",
-		"client",
-		"server",
-		"promise",
-		"survey",
-		"broadcast",
-		"zlib"
-	],
+	"keywords": [],
 	"author": "Timotej Valentin Rojko",
-	"funding": {
-		"type": "patreon",
-		"url": "https://patreon.com/timotejroiko"
-	},
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^16.0.1",
